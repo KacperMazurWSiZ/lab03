@@ -25,9 +25,11 @@ public class Main {
         Prostokat_b p1 = new Prostokat_b(2,4);
         Trojkat t1 = new Trojkat(5, 2.5);
         Figura f1 = new Figura();
+        Okrag o1 = new Okrag(new Punkt(3,4),4.6);
 
         System.out.println("Pole prostokata:" + p1.getPowierzchnia());
         System.out.println(f1.opis());
+        o1.wSrodku(new Punkt(5,7));
 
     }
 }
