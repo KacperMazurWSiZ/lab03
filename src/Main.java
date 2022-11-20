@@ -17,10 +17,17 @@ public class Main {
 //        b1.info();
 //        b2.info();
 
-        Punkt pk1 = new Punkt(2.3,3.5);
-        pk1.opis();
-        pk1.przesun(1.2,-2);
-        pk1.opis();
+//        Punkt pk1 = new Punkt(2.3,3.5);
+//        pk1.opis();
+//        pk1.przesun(1.2,-2);
+//        pk1.opis();
+
+        Prostokat_b p1 = new Prostokat_b(2,4);
+        Trojkat t1 = new Trojkat(5, 2.5);
+        Figura f1 = new Figura();
+
+        System.out.println("Pole prostokata:" + p1.getPowierzchnia());
+        System.out.println(f1.opis());
 
     }
 }
