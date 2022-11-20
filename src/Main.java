@@ -17,7 +17,10 @@ public class Main {
 //        b1.info();
 //        b2.info();
 
-
+        Punkt pk1 = new Punkt(2.3,3.5);
+        pk1.opis();
+        pk1.przesun(1.2,-2);
+        pk1.opis();
 
     }
 }

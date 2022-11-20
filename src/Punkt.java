@@ -34,7 +34,7 @@ public class Punkt {
     }
 
     public void opis(){
-        System.out.println("Pkt o wspol. [x,y]" + x + " " + y);
+        System.out.println("Pkt o wspol. [x,y] " + x + " " + y);
     }
 
     public void przesun(double x, double y){
